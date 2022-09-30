@@ -13,3 +13,9 @@
  - Bio : Student Researcher
  - GitHub : [Suvrat Patel](https://github.com/MadJokkerr)
  - Linkedin : (https://www.linkedin.com/in/suvrat-patel-45331aa7/)
+ 
+ #### Name : Ashutosh Mohapatra
+ - Place : Punjab, India
+ - Bio : Student
+ - GitHub : [Ashutosh Mohapatra](https://github.com/ashutoshmp1)
+ - LinkedIn : (https://www.linkedin.com/in/mpashutosh)
