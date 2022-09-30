@@ -13,3 +13,12 @@
  - Bio : Student Researcher
  - GitHub : [Suvrat Patel](https://github.com/MadJokkerr)
  - Linkedin : (https://www.linkedin.com/in/suvrat-patel-45331aa7/)
+
+
+
+ #### Name : Ritam Kumar Kundu
+ - Place : Siliguri, India
+ - Bio : Student 
+ - GitHub : [ritam77](https://github.com/ritam77)
+
+
