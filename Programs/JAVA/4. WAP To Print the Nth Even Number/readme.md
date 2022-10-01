@@ -15,7 +15,7 @@
 >       Scanner sc=new Scanner(System.in);
 >       System.out.println("Enter the value of N");
 >       int n=sc.nextInt();
->       System.out.println("The Nth Even Number is "+(2 * n - 2));
+>       System.out.println("The Nth Even Number is "+(2 * n));
 >       
 >   }
 >   
