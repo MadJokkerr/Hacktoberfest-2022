@@ -16,11 +16,11 @@
 > 
 > {
 > 
->   public:
+> public:
 > 
->     int key;        // data field
+> int key;        // data field
 > 
->     Node* next;     // pointer to the next node
+> Node* next;     // pointer to the next node
 > 
 > };
 > 
@@ -30,33 +30,33 @@
 > 
 > {
 > 
->     // allocate a new node in a heap and set its data
+> // allocate a new node in a heap and set its data
 > 
->     Node* node = new Node;
+> Node* node = new Node;
 > 
->     node->key = key;
-> 
->  
-> 
->     // set the `.next` pointer of the new node to point to the current
-> 
->     // first node of the list.
+> node->key = key;
 > 
 >  
 > 
->     // no extra use of `*` necessary on the head — the compiler
+> // set the `.next` pointer of the new node to point to the current
 > 
->     // takes care of it behind the scenes
-> 
->     node->next = headRef;
+> // first node of the list.
 > 
 >  
 > 
->     // change the head pointer to point to the new node, so it is
+> // no extra use of `*` necessary on the head — the compiler
 > 
->     // now the first node in the list.
+> // takes care of it behind the scenes
 > 
->     headRef = node;
+> node->next = headRef;
+> 
+>  
+> 
+> // change the head pointer to point to the new node, so it is
+> 
+> // now the first node in the list.
+> 
+> headRef = node;
 > 
 > }
 > 
@@ -68,29 +68,29 @@
 > 
 > {
 > 
->     Node* head = nullptr;
+> Node* head = nullptr;
 > 
 >  
 > 
->     // start from the end of the array
+> // start from the end of the array
 > 
->     for (int i = keys.size() - 1; i >= 0; i--)
+> for (int i = keys.size() - 1; i >= 0; i--)
 > 
->     {
+> {
 > 
->         // Note that no extra use `&` necessary — the compiler takes
+> // Note that no extra use `&` necessary — the compiler takes
 > 
->         // care of it here too. These calls are changing the head.
+> // care of it here too. These calls are changing the head.
+> 
+> 
+> 
+> push(head, keys[i]);
+> 
+> }
 > 
 >  
 > 
->         push(head, keys[i]);
-> 
->     }
-> 
->  
-> 
->     return head;
+> return head;
 > 
 > }
 > 
@@ -102,21 +102,21 @@
 > 
 > {
 > 
->     Node* ptr = head;
+> Node* ptr = head;
 > 
->     while (ptr)
+> while (ptr)
 > 
->     {
+> {
 > 
->         cout << ptr->key << " -> ";
+> cout << ptr->key << " -> ";
 > 
->         ptr = ptr->next;
+> ptr = ptr->next;
 > 
->     }
+> }
 > 
 >  
 > 
->     cout << "nullptr";
+> cout << "nullptr";
 > 
 > }
 > 
@@ -126,24 +126,24 @@
 > 
 > {
 > 
->     // input keys (in reverse order)
+> // input keys (in reverse order)
 > 
->     vector<int> keys = { 4, 3, 2, 1 };
-> 
->  
-> 
->     // construct linked list
-> 
->     Node *head = constructList(keys);
+> vector<int> keys = { 4, 3, 2, 1 };
 > 
 >  
 > 
->     // print linked list
+> // construct linked list
 > 
->     printList(head);
+> Node *head = constructList(keys);
 > 
 >  
 > 
->     return 0;
+> // print linked list
+> 
+> printList(head);
+> 
+>  
+> 
+> return 0;
 > 
 > }
