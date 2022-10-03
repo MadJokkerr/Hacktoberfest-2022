@@ -25,3 +25,10 @@
  - Bio : Pre-final Year Student
  - GitHub : [Abhijeet Verma](https://github.com/xx-abhijeet-xx)
  - Linkedin : (https://www.linkedin.com/in/abhijeet-verma-the-dragon-sin-of-wrath/)
+
+#### Name : Deepanshu Kewalramani
+ - Place : Jodhpur, India
+ - Bio : Pre-final Year Student
+ - GitHub : [Deepanshu](https://github.com/Deepanshu0509)
+ - Linkedin : (https://www.linkedin.com/in/deepanshu-a463301ba/)
+ 
