@@ -49,3 +49,9 @@
  - Bio : Pre-final year student
  - GitHub : [Deepanshu](https://github.com/Deepanshu0509)
  - Linkedin : (https://www.linkedin.com/in/deepanshu-a463301ba/)
+ 
+#### Name : Charumathi P
+ - Place : Chennai, India
+ - Bio : 2nd year student
+ - GitHub : [charu210703](https://github.com/charu210703)
+ - Linkedin : (https://www.linkedin.com/in/charumathi-p/)
