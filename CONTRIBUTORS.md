@@ -43,3 +43,9 @@
  - Bio : BCA student 
  - GitHub : [Mayank Sharma](https://github.com/mayanksharma-1)
  - Linkedin : (http://linkedin.com/in/thisismayanksharma)
+
+#### Name : Deepanshu
+ - Place : Jodhpur, India
+ - Bio : Pre-final year student
+ - GitHub : [Deepanshu](https://github.com/Deepanshu0509)
+ - Linkedin : (https://www.linkedin.com/in/deepanshu-a463301ba/)
