@@ -26,6 +26,12 @@
  - GitHub : [Abhijeet Verma](https://github.com/xx-abhijeet-xx)
  - Linkedin : (https://www.linkedin.com/in/abhijeet-verma-the-dragon-sin-of-wrath/)
 
+#### Name : Charumathi P
+ - Place : Chennai, India
+ - Bio : 2nd year student
+ - GitHub : [charu210703](https://github.com/charu210703)
+ - Linkedin : (https://www.linkedin.com/in/charumathi-p/)
+
 #### Name : Sujeet Singh Tomar
  - Place : Bhopal, India
  - Bio : Pre-final Year Student
